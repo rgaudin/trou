@@ -1,0 +1,14 @@
+2006-04-18	Renaud Gaudin	<reg@cravate.org>
+	* Makefile: fix to support compile on Intel Macs
+
+2006-04-16	Renaud Gaudin	<reg@cravate.org>
+	* Makefile: added Universal Binary support
+
+2005-12-12  Jb Evain  <jbe@cravate.org>
+
+	* Makefile: activate all warnings
+	* trou.mm: fix coding conventions
+
+	* AUTHORS, README, ChangeLog,
+	  Makefile, trou.mm:
+		Initial commit.
