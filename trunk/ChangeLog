@@ -1,3 +1,6 @@
+2007-05-30	Renaud Gaudin	<reg@nurv.fr>
+	* linux:	 Added Gtk/Linux version
+
 2006-04-18	Renaud Gaudin	<reg@cravate.org>
 	* Makefile: fix to support compile on Intel Macs
 

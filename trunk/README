@@ -1,3 +1,12 @@
-trou is an outstanding replacement tool for pbcopy.
+
+trou is a command-line tool for piping some content to your pasteboard.
 Basically, it copies everything from stdin to the pasteboard.
 And it does it well.
+
+WARNING: the OSX and linux versions are COMPLETLY different.
+The OSX version won't work on Linux.
+The Linux version uses Gtk and  so won't work on non-gtk systems.
+
+Example:
+$ cat somefile | trou
+
