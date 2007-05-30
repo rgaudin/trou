@@ -1,5 +1,5 @@
 //
-// trou, a replacement tool for pbcopy
+// trou, a command-line tool to pipe stuff to (gnome) pasteboard
 // (C) 2007 Gaudin & Evain
 //
 
@@ -9,7 +9,7 @@ using System.Threading;
 
 using Gtk;
 
-class Program {
+class Trou {
 
 	static TargetEntry[] targets= new TargetEntry[]{ new TargetEntry("UTF8_STRING", 0, 0)};
 	
@@ -22,12 +22,12 @@ class Program {
 		Thread t = new Thread (ExitIfDone);
 		t.Start ();
 		
-		CopyPasteTest ();
+		einsatzInDasPasteboard ();
 	
 		Application.Run ();
 	}
 
-	static void CopyPasteTest ()
+	static void einsatzInDasPasteboard ()
 	{
 		
 		Clipboard clipboard = Clipboard.Get(Gdk.Atom.Intern("CLIPBOARD", true));
